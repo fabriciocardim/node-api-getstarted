@@ -1,0 +1,10 @@
+->Se não existe o container do mongodb instalado
+	docker start mongodb 
+	
+	docker run --name mongodb -p 27017:27017 -d mongo
+
+->Se já existe o container do mongo na máquina
+
+	->Iniciar o servidor Mongodb
+		
+		docker start mongodb 
